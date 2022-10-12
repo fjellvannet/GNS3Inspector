@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GNS3Inspector"
-version = "1.0.0"
+version = "1.0.1"
 description = "Tool to easier view and edit the router's configuration files in GNS3"
 license = "ISC"
 authors = ["Lukas Neuenschwander <fjellvannet@gmail.com>"]

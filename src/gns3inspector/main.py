@@ -300,7 +300,7 @@ def get_configs(routers: Fagus, selected: tuple, directory: str, args: List[str]
                     if line == "!":
                         record_cfg = False
         else:
-            configs.append({"start": 1, "orig_lines": cfg_lines}, r_id)
+            configs.append({"start": 1, "orig_lines": cfg_lines}, (r_id, "configs"))
     return configs()
 
 
