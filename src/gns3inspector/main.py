@@ -321,7 +321,7 @@ def select_routers(routers: Fagus, router_lookup: dict, args: List[str]):
             )
             return selected
     print("Selected all routers")
-    return tuple(router_lookup)
+    return tuple(routers)
 
 
 def list_routers(routers: Fagus):
